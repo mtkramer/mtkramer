@@ -1,0 +1,29 @@
+/*flexbox*/
+body {
+  background-color: lightgray;
+  /* font-family: ;  */
+  text-align: center;
+  line-height: 1.5em;
+  /* font-size: 150%; */
+  margin: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  /* color: white; */
+  /* text-shadow: 2px 2px 3px #000000; */
+}
+/*
+h1 {}
+
+p {}
+
+img, iframe {
+  border-radius: 3em;
+  border: 0.75em solid white;
+  width: 45%;
+  box-shadow: 2px 2px 3px #000;
+}
+
+a {
+  text-shadow: none;
+}
+*/
