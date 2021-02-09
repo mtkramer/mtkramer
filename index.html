@@ -24,27 +24,32 @@
     <ul>
       <li>This Website</li>
       <li>Becoming more fluent in C#, ASP.NET Core, .NET 5.0, JavaScript, and Python</li>
-      <li>Unity Game Engine</li>
+      <li>Game Designs in Unity</li>
       <li>React-Native</li>
       <li>Neural Styling of Images</li>
       <li>Machine Learning courses from many sources</li>
     </ul>
 
     <h4>Contact Me</h4>
-    <form>
-      <label for="">Your Name: <br>
-        <input name="" id="" placeholder="your name" type="text" required>
+    <form id="contactForm" name="contactForm" target="portal" onsubmit="sent=true;"
+      action="https://docs.google.com/forms/d/e/1FAIpQLSe7esbBOa7VzCfGSaBHHvWaUKhSQuLtUSyHr_US3OI0TqxlTA/formResponse?"
+      method="POST">
+      <label for="entry.935127285">Your Name: <br>
+        <input name="entry.935127285" id="entry.935127285" placeholder="your name" type="text" required>
       </label><br>
-      <label for="">Email: <br>
-        <input name="" id="" placeholder="email@mail.com" type="text" required>
+      <label for="entry.1515286811">Email: <br>
+        <input name="entry.1515286811" id="entry.1515286811" placeholder="email@mail.com" type="text" required>
       </label><br>
-      <label for="">Your Questions: <br>
-        <textarea name="" id="" rows="4" cols="50" placeholder="for job offers, interview requests, or to say hi"></textarea required>
+      <label for="entry.12884340">Your Questions: <br>
+        <textarea name="entry.12884340" id="entry.12884340" rows="4" cols="50"
+          placeholder="for job offers, interview requests, or to say hi"></textarea required>
       </label><br>
-      <input type="submit">
+      <input type="submit" name="" value="Send">
     </form>
 
-    <h1>Project Highlights</h1>
+    <!-- prevent website from becoming dynamic -->
+    <iframe id="portal" name="portal" style="display: none;" onload="if(sent){return;}"></iframe>
+
     <h2>Awards</h2>
     <h3>Fun Facts</h3>
     <h4>Other Project links</h3>
