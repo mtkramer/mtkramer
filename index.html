@@ -31,21 +31,23 @@
     </ul>
 
     <h4>Contact Me</h4>
-    <form id="contactForm" name="contactForm" target="portal" onsubmit="sent=true;"
-      action="https://docs.google.com/forms/d/e/1FAIpQLSe7esbBOa7VzCfGSaBHHvWaUKhSQuLtUSyHr_US3OI0TqxlTA/formResponse?"
-      method="POST">
-      <label for="entry.935127285">Your Name: <br>
-        <input name="entry.935127285" id="entry.935127285" placeholder="your name" type="text" required>
-      </label><br>
-      <label for="entry.1515286811">Email: <br>
-        <input name="entry.1515286811" id="entry.1515286811" placeholder="email@mail.com" type="text" required>
-      </label><br>
-      <label for="entry.12884340">Your Questions: <br>
-        <textarea name="entry.12884340" id="entry.12884340" rows="4" cols="50"
-          placeholder="for job offers, interview requests, or to say hi"></textarea required>
-      </label><br>
-      <input type="submit" name="" value="Send">
-    </form>
+    <div id="contactDiv">
+      <form id="contactForm" target="portal" onsubmit="sent=true;"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSe7esbBOa7VzCfGSaBHHvWaUKhSQuLtUSyHr_US3OI0TqxlTA/formResponse?"
+        method="POST">
+        <label for="entry.935127285">Your Name: <br>
+          <input name="entry.935127285" id="entry.935127285" placeholder="your name" type="text" required>
+        </label><br>
+        <label for="entry.1515286811">Email: <br>
+          <input name="entry.1515286811" id="entry.1515286811" placeholder="email@mail.com" type="text" required>
+        </label><br>
+        <label for="entry.12884340">Your Questions: <br>
+          <textarea name="entry.12884340" id="entry.12884340" rows="4" cols="50"
+            placeholder="for job offers, interview requests, or to say hi"></textarea required>
+        </label><br>
+        <input type="submit" name="" value="Send">
+      </form>
+    </div>
 
     <!-- prevent website from becoming dynamic -->
     <iframe id="portal" name="portal" style="display: none;" onload="if(sent){return;}"></iframe>
@@ -56,5 +58,7 @@
 
   </main>
 </body>
+
+<script type="text/javascript" src="scripts.js"></script>
 
 </html>
