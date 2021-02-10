@@ -9,6 +9,15 @@ body {
   /* text-decoration: slategray; */
 }
 
+.gridRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.gridCard {
+  flex-direction: column;
+}
+
 /*
 h1 {}
 
