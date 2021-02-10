@@ -6,12 +6,31 @@ body {
   line-height: 1.5em;
   font-size: 125%;
   color: slategray;
-  /* text-decoration: slategray; */
 }
+
+h1 {
+  color: #56b6c2;
+}
+
+h2 {
+  color: #c678dd;
+}
+
+h3 {
+  color: #e06c75;
+}
+
+h4 {
+  color: #61afef;
+}
+
+/*#e5c07b orange*/
+/*#98c379 yellow*/
 
 .flexRow {
   display: flex;
   flex-flow: row wrap;
+  flex: 1 1 auto;
 }
 
 .card {
@@ -22,8 +41,6 @@ body {
 }
 
 /*
-h1 {}
-
 p {}
 
 a {}
