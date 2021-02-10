@@ -11,11 +11,13 @@ body {
 
 .gridRow {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .gridCard {
-  flex-direction: column;
+  background-color: #333333;
+  border-radius: 0.25em;
+  padding: 1em;
 }
 
 /*
