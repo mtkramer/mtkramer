@@ -1,4 +1,3 @@
-/*flexbox*/
 body {
   background-color: #0a0f0f;
   flex-direction: column;
@@ -9,19 +8,19 @@ body {
 }
 
 h1 {
-  color: #56b6c2;
-}
-
-h2 {
-  color: #c678dd;
-}
-
-h3 {
   color: #e06c75;
 }
 
-h4 {
+h2 {
   color: #61afef;
+}
+
+h3 {
+  color: #56b6c2;
+}
+
+h4 {
+  color: #c678dd;
 }
 
 /*#e5c07b orange*/
@@ -34,7 +33,7 @@ h4 {
 }
 
 .card {
-  background-color: #333333;
+  background-color: #141414;
   border-radius: 0.25em;
   padding: 1em;
   text-align: center;
